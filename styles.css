@@ -49,3 +49,18 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.white {
+    align-items: center;
+}
+
+.entry {
+    width: 200px;
+}
+
+.information {
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 16px;
+}
+
