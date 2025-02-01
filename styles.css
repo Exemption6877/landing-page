@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -27,8 +31,10 @@ ul {
 }
 
 a {
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
     text-decoration: none;
+    
 }
 
 #top-button {
@@ -54,7 +60,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    width: 300px;
+    width: 400px;
+}
+
+.text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .face {
@@ -66,10 +83,29 @@ a {
 
 .white {
     align-items: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.white h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .entry {
     width: 200px;
+}
+
+.entry img {
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.entry p {
+    text-align: center;
 }
 
 .information {
@@ -80,7 +116,7 @@ a {
 
 .grey {
     /* do with flex:1 its sizing */
-    background-color: lightgrey;
+    background-color: #e5e7eb;
     align-items: center;
     padding: 64px 128px;
 
@@ -88,10 +124,18 @@ a {
 
 .quote-area p {
     width: 600px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+
 }
 
 .quote-area h3 {
     align-self: end;
+}
+
+.button {
+    align-items: center;
 }
 
 .action-area{
@@ -123,5 +167,7 @@ a {
 
 .footer {
     text-align: center;
-    padding: 0;
+    padding-bottom: 4px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
