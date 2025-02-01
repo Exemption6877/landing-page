@@ -64,3 +64,17 @@ a {
     padding-bottom: 16px;
 }
 
+.grey {
+    /* do with flex:1 its sizing */
+    background-color: lightgrey;
+    align-items: center;
+    padding: 64px 128px;
+}
+
+.grey p {
+    width: 600px;
+}
+
+.grey h3 {
+    align-self: end;
+}
