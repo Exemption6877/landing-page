@@ -69,6 +69,7 @@ a {
     background-color: lightgrey;
     align-items: center;
     padding: 64px 128px;
+
 }
 
 .grey p {
@@ -77,4 +78,14 @@ a {
 
 .grey h3 {
     align-self: end;
+}
+
+.action-area{
+    background-color: lightblue;
+    padding: 0 128px;
+    margin: 64px 0;
+}
+
+.footer {
+    text-align: center;
 }
