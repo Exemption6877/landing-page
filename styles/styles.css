@@ -155,7 +155,7 @@ a {
     border: 2px solid #3882F6;
     border-radius: 10px;
     height: 150px;
-    flex-shrink: 0;
+    
 }
 
 .paragraph p, .paragraph h2 {
