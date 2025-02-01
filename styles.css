@@ -14,7 +14,7 @@ body {
 .blue {
     background-color: #1F2937;
     color: white;
-    padding-bottom: 16px;
+    padding-bottom: 64px;
 }
 
 ul {
@@ -31,10 +31,23 @@ a {
     text-decoration: none;
 }
 
+#top-button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 4px 24px;
+}
+
+#main-image {
+    border-radius: 10px;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 0 32px;
+    padding: 0 64px;
+    padding-bottom: 64px;
 }
 
 .text {
@@ -48,6 +61,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 64px;
 }
 
 .white {
@@ -72,8 +86,6 @@ a {
 
 }
 
-
-
 .quote-area p {
     width: 600px;
 }
@@ -81,8 +93,6 @@ a {
 .quote-area h3 {
     align-self: end;
 }
-
-
 
 .action-area{
     flex-direction: row;
@@ -93,7 +103,7 @@ a {
     gap: 32px;
     color: #F9FAF8;
     border: 2px solid #3882F6;
-    border-radius: 1ch;
+    border-radius: 10px;
     height: 150px;
 }
 
@@ -105,7 +115,7 @@ a {
 #bottom-button {
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
-    border-radius: 1ch;
+    border-radius: 8px;
     color: #F9FAF8;
     padding: 4px 24px;
 }
@@ -113,4 +123,5 @@ a {
 
 .footer {
     text-align: center;
+    padding: 0;
 }
